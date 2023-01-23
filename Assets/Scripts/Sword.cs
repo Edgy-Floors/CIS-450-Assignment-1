@@ -29,4 +29,8 @@ public class Sword : Weapon, IMelee, ISheathable
         Debug.Log("This method sheathes the sword weapon, playing an animation for " + sheathTime + " seconds.");
     }
 
+    public override void attack(float damage)
+    {
+        Debug.Log("This method overrides the Weapon class and calls the Sword's attack function.");
+    }
 }

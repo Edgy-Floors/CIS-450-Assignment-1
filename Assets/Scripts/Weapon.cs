@@ -12,7 +12,7 @@ using UnityEngine;
 public class Weapon 
 {
     public float damage = 10.2F;
-    public void attack(float damage)
+    public virtual void attack(float damage)
     {
         Debug.Log("This is an attack from the abstract class Weapon.");
     }

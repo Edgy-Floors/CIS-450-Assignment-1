@@ -22,4 +22,8 @@ public class Axe : Weapon, IMelee, IRanged
     {
         Debug.Log("This method throws the axe at a distance of " + distance + ".");
     }
+    public override void attack(float damage)
+    {
+        Debug.Log("This method overrides the Weapon class and calls the Axe's attack function.");
+    }
 }

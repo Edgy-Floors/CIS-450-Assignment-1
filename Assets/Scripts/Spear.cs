@@ -22,4 +22,9 @@ public class Spear : Weapon, IMelee, IRanged
     {
         Debug.Log("This method throws the spear at a distance of " + distance + ".");
     }
+
+    public override void attack(float damage)
+    {
+        Debug.Log("This method overrides the Weapon class and calls the Spear's attack function.");
+    }
 }
