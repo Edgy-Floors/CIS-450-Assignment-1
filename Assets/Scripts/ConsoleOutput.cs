@@ -71,7 +71,8 @@ public class ConsoleOutput : MonoBehaviour
 
             foreach(IMelee im in l1)
             {
-                
+                float test = 6.9F;
+                im.slash(test);
             }
 
             l1.Clear();
